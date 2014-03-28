@@ -25,7 +25,7 @@
             <span class="icon-bar"></span>
           </button>
           <!--MODIFY title of web page, and link destination if desired-->
-          <a class='navbar-brand' href='index.html'>Search-and-Filter Map Template with 2 layers</a>
+          <a class='navbar-brand' href='index.html'>SmartChoices test</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -38,8 +38,6 @@
     <div class='container'>
       <div class='row'>
         <div class='col-md-4'>
-        <!--MODIFY or erase any descriptive text or links below between the paragraph <p> tags -->
-          <p>Download and modify <a href="https://github.com/JackDougherty/FusionTable-Map-2-layers" target="_blank">template code from GitHub</a><br>Based on <a href='http://derekeder.com/searchable_map_template/' target='_blank'>Searchable Map Template</a> by <a href='http://derekeder.com'>Derek Eder</a><br>Draws data from <a href='http://support.google.com/fusiontables/answer/2571232?hl=en&ref_topic=1652595' target='_blank'>Google Fusion Tables</a></p>
           <div class='well'>
             <h4>
               Address <small>(<a id='find_me' href='#'>find me</a>)</small>
@@ -83,35 +81,11 @@
                 <label class='checkbox inline'>
                   <input type='checkbox' id='cbType3' />
                   <span class='filter-box filter-yellow'></span>
-                  More PreK centers
+                  More PreK centers <input type='radio' name='types' class='hidden' id='rbPolygon1' checked /><!--MODIFY Polygon layers legend heading, labels (such as Polygon layer 1) to match your data, and related variables in maps_lib.js file -->
                 </label>
               </li>
-            </ul>
-            <h4>
-            <!--MODIFY Polygon layers legend heading, labels (such as Polygon layer 1) to match your data, and related variables in maps_lib.js file -->
-              Polygon layers
-            </h4>
-            <ul class='inputs-list unstyled'>
-              <li>
-                <label class='radio inline'>
-                  <input type='radio' name='types' id='rbPolygon1' checked />
-                  Polygon layer 1
-                </label>
-              </li>
-              <li>
-                <label class='radio inline'>
-                  <input type='radio' name='types' id='rbPolygon2' />
-                  Polygon layer 2
-                </label>
-              </li>
-              <li>
-                <label class='radio inline'>
-                  <input type='radio' name='types' id='rbPolygon0' />
-                  Off
-                </label>
-              </li>
-            </ul>
-            <br />
+            </ul> 
+            
             <a class='btn btn-primary' id='search' href='#'>
               <i class='glyphicon glyphicon-search'></i>
               Search
