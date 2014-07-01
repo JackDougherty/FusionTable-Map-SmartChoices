@@ -29,7 +29,7 @@ var MapsLib = {
   fusionTableId:      "1WoxNIvjGQzQAk7B965hwVQOIl04f-Xn09JuTLu03", //Point data layer
   
   polygon1TableID:    "1poRWt7WIHrERFaMu0gmdtN-yVBjXxzE4VG8I4sM", //HPS zones
-  polygon2TableID:    "1poRWt7WIHrERFaMu0gmdtN-yVBjXxzE4VG8I4sM", //Outline map of CT town boundaries
+  polygon2TableID:    "1ceippR4giBiF-pT9PE1YAUvebFp6_NKvYriccYo", //CT town boundaries outlines
 
   //*MODIFY Fusion Tables Requirement* API key. found at https://code.google.com/apis/console/
   //*Important* this key is for demonstration purposes. please register your own.
@@ -47,7 +47,7 @@ var MapsLib = {
   recordNamePlural:   "results",
 
   searchRadius:       805,            //in meters ~ 1/2 mile
-  defaultZoom:        12,             //zoom level when map is loaded (bigger is more zoomed in)
+  defaultZoom:        13,             //zoom level when map is loaded (bigger is more zoomed in)
   addrMarkerImage:    'images/blue-pushpin.png',
   currentPinpoint:    null,
 
